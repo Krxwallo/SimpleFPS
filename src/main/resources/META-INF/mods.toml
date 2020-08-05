@@ -1,0 +1,27 @@
+modLoader="javafml" #mandatory
+loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="GPLv3"
+issueTrackerURL="https://www.github.com/Krxwallo/SimpleFPS/issues"
+[[mods]]
+modId="simple_fps"
+version="${file.jarVersion}"
+displayName="Simple FPS"
+#updateJSONURL="http://myurl.me/"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/simple-fps"
+#logoFile="examplemod.png" #optional
+credits="Credits go to minecraft, forge and justAm0dd3r"
+authors="justAm0dd3r"
+description='''A simple mod that views the current debug fps at the top left of the screen.'''
+[[dependencies.simple_fps]]
+    modId="forge"
+    mandatory=true #mandatory
+    versionRange="[32,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.simple_fps]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1]"
+    ordering="NONE"
+    side="BOTH"
