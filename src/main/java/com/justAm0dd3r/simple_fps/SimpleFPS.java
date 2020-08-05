@@ -19,6 +19,9 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
+/**
+ * Author: justAm0dd3r
+ */
 @Mod(Reference.MOD_ID)
 public class SimpleFPS
 {

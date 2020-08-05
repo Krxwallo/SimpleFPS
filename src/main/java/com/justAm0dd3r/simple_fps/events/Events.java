@@ -9,6 +9,9 @@ import net.minecraftforge.fml.common.Mod;
 
 import java.lang.reflect.Field;
 
+/**
+ * Author: justAm0dd3r
+ */
 @Mod.EventBusSubscriber
 public class Events {
     @SubscribeEvent
