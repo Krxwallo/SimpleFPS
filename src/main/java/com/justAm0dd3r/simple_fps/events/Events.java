@@ -16,6 +16,8 @@ import java.lang.reflect.Field;
 public class Events {
     @SubscribeEvent
     public static void onRenderGameOverlay(RenderGameOverlayEvent.Post event) {
+        if (!event.getType().equals(RenderGameOverlayEvent.ElementType.TEXT)) return;
+
         int fps = -1;
 
         try {
