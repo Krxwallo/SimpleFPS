@@ -33,6 +33,6 @@ public class Events {
         else           fpsString = String.valueOf(fps);
 
         //noinspection ConstantConditions // TextFormatting.WHITE.getColor() is not null!
-        Minecraft.getInstance().fontRenderer.func_238407_a_(event.getMatrixStack(), new TranslationTextComponent("gui.simple_fps.main", fpsString), 3, 3, TextFormatting.WHITE.getColor());
+        Minecraft.getInstance().fontRenderer.func_243246_a(event.getMatrixStack(), new TranslationTextComponent("gui.simple_fps.main", fpsString), 3, 3, TextFormatting.WHITE.getColor());
     }
 }
