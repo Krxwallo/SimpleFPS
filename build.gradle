@@ -17,7 +17,7 @@ version = '1.0.1'
 //noinspection GroovyUnusedAssignment
 group = 'com.justAm0dd3r.simple_fps' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 //noinspection GroovyUnusedAssignment
-archivesBaseName = 'simple_fps-1.16.1'
+archivesBaseName = 'simple_fps-1.16.X'
 
 //noinspection GroovyUnusedAssignment,GrUnresolvedAccess
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
