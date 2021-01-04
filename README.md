@@ -1,6 +1,12 @@
 ![SimpleFPS banner](https://lookonthebrightsi.de/mc-mods/simple-fps/images/simple_fps_banner.png)
-![Versions](http://cf.way2muchnoise.eu/versions/MC_simple-fps_for-the-badge.svg)
-![Downloads](http://cf.way2muchnoise.eu/downloads/simple-fps.svg)
+
+[![Curseforge](http://cf.way2muchnoise.eu/title/simple-fps.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/simple-fps)
+[![Downloads](http://cf.way2muchnoise.eu/simple-fps.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/simple-fps/download)
+[![Versions](http://cf.way2muchnoise.eu/versions/simple-fps.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/simple-fps)
+[![Issues](https://img.shields.io/github/issues/Krxwallo/SimpleFPS?logo=github&style=for-the-badge)](https://www.github.com/Krxwallo/SimpleFPS/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/Krxwallo/SimpleFPS?logo=github&style=for-the-badge)](https://www.github.com/Krxwallo/SimpleFPS)
+[![Code](https://img.shields.io/github/languages/top/Krxwallo/SimpleFPS?logo=github&style=for-the-badge)](https://www.github.com/Krxwallo/SimpleFPS)
+[![Repo Size](https://img.shields.io/github/repo-size/Krxwallo/SimpleFPS?logo=github&style=for-the-badge)](https://www.github.com/Krxwallo/SimpleFPS)
 
 # Simple FPS
 
