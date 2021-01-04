@@ -5,8 +5,6 @@
 [![Versions](http://cf.way2muchnoise.eu/versions/simple-fps.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/simple-fps)
 [![Issues](https://img.shields.io/github/issues/Krxwallo/SimpleFPS?logo=github&style=for-the-badge)](https://www.github.com/Krxwallo/SimpleFPS/issues)
 [![Last Commit](https://img.shields.io/github/last-commit/Krxwallo/SimpleFPS?logo=github&style=for-the-badge)](https://www.github.com/Krxwallo/SimpleFPS)
-[![Code](https://img.shields.io/github/languages/top/Krxwallo/SimpleFPS?logo=github&style=for-the-badge)](https://www.github.com/Krxwallo/SimpleFPS)
-[![Repo Size](https://img.shields.io/github/repo-size/Krxwallo/SimpleFPS?logo=github&style=for-the-badge)](https://www.github.com/Krxwallo/SimpleFPS)
 
 # Simple FPS
 
