@@ -1,33 +1,24 @@
 package com.justAm0dd3r.simple_fps;
 
-import com.justAm0dd3r.simple_fps.reference.Reference;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.RegistryEvent;
+import net.minecraft.client.Minecraft;
+import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
-import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-import java.util.stream.Collectors;
 
 /**
  * Author: justAm0dd3r
  */
-@Mod(Reference.MOD_ID)
-public class SimpleFPS
-{
-    private static final Logger LOGGER = LogManager.getLogger();
+@Mod("simple_fps")
+@Mod.EventBusSubscriber
+public class SimpleFPS {
+    @SubscribeEvent
+    public static void onRenderGameOverlay(RenderGameOverlayEvent.Post event) {
+        if (!event.getType().equals(RenderGameOverlayEvent.ElementType.TEXT)) return;
 
-    public SimpleFPS() {
-        LOGGER.info(Reference.NAME + " Version " + Reference.VERSION + " by " + Reference.AUTHOR + " started up.");
+        String fps = Minecraft.getInstance().fpsString.split(" ")[0];
+
+        // white = 16777215
+        Minecraft.getInstance().font.draw(event.getMatrixStack(), new TranslatableComponent("gui.simple_fps.main", fps), 3, 3, 16777215);
     }
 }
