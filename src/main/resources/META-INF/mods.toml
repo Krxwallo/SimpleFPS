@@ -1,5 +1,5 @@
 modLoader="javafml" #mandatory
-loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[41,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 license="General Public License v3"
 issueTrackerURL="https://www.github.com/Krxwallo/SimpleFPS/issues"
 [[mods]]
@@ -15,13 +15,13 @@ description='''A simple mod that views the current debug fps at the top left of 
 [[dependencies.simple_fps]]
     modId="forge"
     mandatory=true #mandatory
-    versionRange="[32,)" #mandatory
+    versionRange="[41,)" #mandatory
     ordering="NONE"
-    side="BOTH"
+    side="CLIENT"
 
 [[dependencies.simple_fps]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.1, 1.19)"
+    versionRange="[1.19, 1.20)"
     ordering="NONE"
-    side="BOTH"
+    side="CLIENT"
